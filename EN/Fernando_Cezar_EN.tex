@@ -8,8 +8,8 @@
 %%                           1 of ??                                  %%
 %%                                                                    %%
 %% at the bottom of your first page, this means that the AUX file     %%
-%% was not available when you ran LaTeX on this source. Simply RERUN  %% 
-%% LaTeX to get the ``??'' replaced with the number of the last page  %% 
+%% was not available when you ran LaTeX on this source. Simply RERUN  %%
+%% LaTeX to get the ``??'' replaced with the number of the last page  %%
 %% of the document. The AUX file will be generated on the first run   %%
 %% of LaTeX and used on the second run to fill in all of the          %%
 %% references.                                                        %%
@@ -179,7 +179,7 @@
 % NOTE: Mind where the & separators and \\ breaks are in the following
 %       table.
 %
-% ALSO: \rcollength is the width of the right column of the table 
+% ALSO: \rcollength is the width of the right column of the table
 %       (adjust it to your liking; default is 1.85in).
 %
 \newlength{\rcollength}\setlength{\rcollength}{1.85in}%
@@ -203,6 +203,13 @@ Graduation date: July 2011
 
 \blankline
 
+\section{Public repository}
+
+\textbf{Github}: \href{https://github.com/netcriptus}{https://github.com/netcriptus}\\
+\textbf{MasterBranch}: \href{https://masterbranch.com/netcriptus}{https://masterbranch.com/netcriptus}
+
+\blankline
+
 \section{Professional Experience}
 %
 
@@ -211,11 +218,20 @@ Sao Paulo, SP, Brazil
 \begin{outerlist}
 
 \item[] \textit{Backend Developer}%
-        \hfill \textbf{October 2013 to present}
+        \hfill \textbf{October 2012 to present}
 \begin{innerlist}
-\item API developer for whitelabel products.
-\item Interesting projects include a WebDAV contacts manager and the design of a Single Sign On infrastructure.
-\item Occasionaly performed pentests in the company's products.
+    \item API developer for whitelabel products, including:
+        \begin{innerlist}
+            \item a file sync software
+            \item a Contacts management WebDAV compliant server
+            \item a Single Sign On software and federated environment.
+        \end{innerlist}
+    \item Occasionally performed pentests in the company's products.
+
+    \item Technologies used in the company include Python, Django, Flask, Shell Script, MySQL, PostgreSQL, Amazon Web Services
+    (S2 and E3), git, Nginx and MongoDB.
+    \item Methods and tools used in the company include Scrum, TDD, BDD, Mumble and Grove.io (both for communication
+    with inner and remote team)
 \end{innerlist}
 
 \end{outerlist}
@@ -227,25 +243,26 @@ Curitiba, Parana, Brazil
 \begin{outerlist}
 
 \item[] \textit{Web developer}%
-        \hfill \textbf{July 2013 to October 2013}
+        \hfill \textbf{July 2012 to October 2012}
 \begin{innerlist}
-\item Part of the team developing \href{http://www.orelhadelivro.com.br/}{Orelha de Livro}, a web
-app for books management.
+    \item Part of the team developing \href{http://www.orelhadelivro.com.br/}{Orelha de Livro}, a web
+    app for books management.
+    \item Technologies used by the company include Amazon Web Services (E3 and RDS), git, Python, Django and MySQL
 \end{innerlist}
 
 \end{outerlist}
 
 \blankline
 
-\textbf{Alian\c{c}a Project},
+\href{http://netguard.com.br}{\textbf{Netguard}},
 Curitiba, Parana, Brazil
 \begin{outerlist}
 
-\item[] \textit{Supervisor of web system development}%
-        \hfill \textbf{July 2010 to July 2012}
+\item[] \textit{Programmer}%
+        \hfill \textbf{February 2012 to July 2012}
 \begin{innerlist}
-\item Responsible for planning and development of a new web system for file sharing based on SMS.
-\item Reponsible for selecting, hiring and coordinating the development team.
+    \item Responsible for planning and development of a client relationship management system.
+    \item Technologies used for this project were Ruby on Rails and PostgreSQL.
 \end{innerlist}
 
 \end{outerlist}
@@ -256,13 +273,13 @@ Curitiba, Parana, Brazil
 Curitiba, Parana, Brazil
 \begin{outerlist}
 
-\item[] \textit{Development of web systems}%
+\item[] \textit{Development of web systems, intern}%
         \hfill \textbf{October 2009 to July 2010}
 \begin{innerlist}
-\item Bug fixes and development of new functions in the control system
-  of \href{http://www.genpro.com.br/}{\textbf{Genpro engineering}}
-\item Implemented and configured a backup system (Bacula) for
-  distributed servers.
+    \item Bug fixes and development of new functions in the control system
+      of \href{http://www.genpro.com.br/}{\textbf{Genpro engineering}}
+    \item Implemented and configured a backup system for distributed servers.
+    \item Technologies used included PHP, Symfony, MySQL, Bacula, Shell Script, Asterix and Subversion.
 \end{innerlist}
 
 \end{outerlist}
@@ -273,12 +290,13 @@ Curitiba, Parana, Brazil
 Curitiba, Parana, Brazil
 \begin{outerlist}
 
-\item[] \textit{Development of web bots and parsers}%
+\item[] \textit{Development of web bots and parsers, intern}%
         \hfill \textbf{January 2008 to October 2009}
 \begin{innerlist}
-\item Designed and implemented html parsers for sports betting websites.
-\item Participated in software development of web bots for automated
-  betting.
+    \item Designed and implemented html parsers for sports betting websites.
+    \item Participated in software development of web bots for automated
+      betting.
+    \item Technologies used included Python, Twisted and PAMIE.
 \end{innerlist}
 
 \end{outerlist}
@@ -292,8 +310,13 @@ Federal University of Parana
 \item[] \textit{
         \hfill \textbf{March 2007 to February 2008}}
 \begin{innerlist}
-\item Ministrated Linux classes inside the University.
-\item Researched projects using free, open source software.
+    \item Ministrated Linux classes inside the University.
+    \item Researched projects using free, open source software, highlights on:
+    \begin{innerlist}
+        \item Dokeos and Moodle, deployed and compared on a research about e-learning
+        \item ffmpeg for real time video streaming conversion
+    \end{innerlist}
+    \item Technologies adopted by the group include C, PHP, Shell Script, Subversion, Python and Django
 \end{innerlist}
 
 \end{outerlist}
@@ -303,9 +326,13 @@ Federal University of Parana
 %
 Over 6 years of professional and academic experience in Python.
 
-Programming skills in Pascal, C, Shell Script, PHP, Javascript, Ruby on Rails and Ajax.
+Programming skills in Ruby, C, Shell Script, PHP, Javascript, Ajax and Pascal.
 
-Long academic research about advanced mobile networks (mainly MANET's and DTN).
+Experience in web frameworks Django, Rails, Flask, Sinatra and Symfony.
+
+Experience in BDD, TDD, Scrum and XP.
+
+Long academic research about advanced mobile networks (mainly MANETs and DTN).
 
 Brief experience with network and system administration.
 
@@ -320,7 +347,7 @@ Short experience with robots building and basic hardware design.
 \begin{itemize}
 \item Attended to \href{http://www.fisl.org.br/10/www/}{\textbf{FISL
     (International Free Software Forum)}} in the years of 2008, 2009, 2010 and 2011.
-    
+
 \item Attended online cryptography classes from Berkley University in \href{https://www.coursera.org/}{Coursera} (2011)
 
 \item Attended Google Developer Day Brazil 2010 and 2011.
