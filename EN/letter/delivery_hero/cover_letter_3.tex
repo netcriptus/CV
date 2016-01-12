@@ -1,0 +1,95 @@
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+% Long Lined Cover Letter
+% LaTeX Template
+% Version 1.0 (1/6/13)
+%
+% This template has been downloaded from:
+% http://www.LaTeXTemplates.com
+%
+% Original author:
+% Matthew J. Miller
+% http://www.matthewjmiller.net/howtos/customized-cover-letter-scripts/
+%
+% License:
+% CC BY-NC-SA 3.0 (http://creativecommons.org/licenses/by-nc-sa/3.0/)
+%
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+
+%----------------------------------------------------------------------------------------
+%	PACKAGES AND OTHER DOCUMENT CONFIGURATIONS
+%----------------------------------------------------------------------------------------
+
+\newcommand{\jobtitle}{Software Engineer Backend Systems}
+\newcommand{\company}{Delivery Hero}
+
+\documentclass[10pt,stdletter,dateno,sigleft]{newlfm} % Extra options: 'sigleft' for a left-aligned signature, 'stdletternofrom' to remove the from address, 'letterpaper' for US letter paper - consult the newlfm class manual for more options
+
+\usepackage{charter} % Use the Charter font for the document text
+
+\newlfmP{sigsize=50pt} % Slightly decrease the height of the signature field
+\newlfmP{addrfromphone} % Print a phone number under the sender's address
+\newlfmP{addrfromemail} % Print an email address under the sender's address
+\PhrPhone{Phone} % Customize the "Telephone" text
+\PhrEmail{Email} % Customize the "E-mail" text
+
+%----------------------------------------------------------------------------------------
+%	YOUR NAME AND CONTACT INFORMATION
+%----------------------------------------------------------------------------------------
+
+\namefrom{Fernando Cezar} % Name
+
+\addrfrom{
+\today\\[12pt] % Date
+Schreinerstra{\ss}e 8 \\ % Address
+Berlin, 10247
+}
+
+\phonefrom{+49 163 753 1309} % Phone number
+
+\emailfrom{fernando@cezar.link} % Email address
+
+%----------------------------------------------------------------------------------------
+%	ADDRESSEE AND GREETING/CLOSING
+%----------------------------------------------------------------------------------------
+
+\greetto{Dear Sir/Madam} % Greeting text
+\closeline{Sincerely yours,} % Closing text
+
+\nameto{HR Department} % Addressee of the letter above the to address
+
+\addrto{
+Recruitment Officer \\ % To address
+\company \\
+}
+
+%----------------------------------------------------------------------------------------
+
+\begin{document}
+\begin{newlfm}
+
+%----------------------------------------------------------------------------------------
+%	LETTER CONTENT
+%----------------------------------------------------------------------------------------
+
+I would like to be considered for the position of \jobtitle. I believe I have the
+desired skills and could be a valuable asset to \company, as you can see on my CV attached.
+
+I have large experience with web services and object oriented programming, specially with Python -- a language I've
+been using for the past 8 years, both academically and professionally --, Flask and Django.
+
+I have a degree in Computer Sciences and an unfinished Masters in Computer Sciences. I was involved with scientific research
+during the period of both degrees, which gave me a great deal of experience using algorithms to solve
+non-trivial problems, like graph algorithms applied to networks and distributed services, since this was
+my field of research.
+
+If you need any more specific information, I will be glad to provide it. You can find a complete historic on my
+professional experience on the CV attached. Please contact me to schedule an interview.
+
+Thank you for your time and consideration.
+
+I look forward to your reply.
+
+%----------------------------------------------------------------------------------------
+
+\end{newlfm}
+\end{document}

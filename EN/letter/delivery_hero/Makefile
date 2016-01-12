@@ -1,8 +1,8 @@
-FILE=Fernando_Cezar_EN
+FILE=cover_letter_3
 TEX=${FILE}.tex
 DVI=${FILE}.dvi
 PS=${FILE}.ps
-OUTPUT=Fernando_Cezar.pdf
+OUTPUT=Cover_letter_Fernando_Cezar.pdf
 
 ALL: ${PS}
 	ps2pdf ${PS}
